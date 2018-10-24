@@ -1,24 +1,40 @@
-# README
+# Création d'un blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Programming w/ @Clément Baldy & @LeaLp
 
-Things you may want to cover:
+**Après téléchargement du repo, lancer**
 
-* Ruby version
+```bundle install```  
+```rails db:migrate```  
+```rails db:seed```  
 
-* System dependencies
+Accès à la console pour vérifier la structure de la BDD
+```rails console```
 
-* Configuration
 
-* Database creation
+## Résumé du projet
+- Création d'un site où les utilisateurs peuvent créer des "pins"
+- Chauqe pin contient une URL d'une image sur le net
+- Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires
 
-* Database initialization
+## Structure de la BDD
 
-* How to run the test suite
+### Models 
+- Course
+- Lesson
 
-* Services (job queues, cache servers, search engines, etc.)
+### Colonnes de chaque table
+> ```timestamps``` est présent dans chaque table sous la forme  
+> ```t.datetime "created_at", null: false```  
+> ```t.datetime "updated_at", null: false```   
 
-* Deployment instructions
+* **table** ```courses```
+    * "title" (string)
+    * "description" (text)
 
-* ...
+
+* **table** ```lessons```
+    * "title" (string)
+    * "body" (text)
+    * "course_id" **(foreign key)**
+
