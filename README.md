@@ -13,9 +13,9 @@ Accès à la console pour vérifier la structure de la BDD
 
 
 ## Résumé du projet
-- Création d'un site où les utilisateurs peuvent créer des "pins"
-- Chauqe pin contient une URL d'une image sur le net
-- Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires
+- Création d'une plateforme d'apprentissage en ligne
+- Chaque cours a un titre et une description
+- Un cours a plusieurs leçons, qui ont un titre et un body
 
 ## Structure de la BDD
 
