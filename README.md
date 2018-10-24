@@ -1,4 +1,4 @@
-# Création d'un blog
+# MOOCademy
 
 > Programming w/ @Clément Baldy & @LeaLp
 
